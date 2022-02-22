@@ -4,7 +4,7 @@ int a=2,b=3,c=6,s;
 int main()
 {
 
-int v=23;
+int v=2314;
  s=a+b+c;
 
 
