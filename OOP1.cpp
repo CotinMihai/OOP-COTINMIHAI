@@ -1,16 +1,30 @@
 #include<iostream>
+#include <stdio.h>
+#include <stdlib.h>
 using namespace std;
-int a=2,b=3,c=6,s;
+
+
+
+
+
+
+
+
+
 int main()
+
 {
-
-int v=2314;
- s=a+b+c;
-
-
- cout<<s+v;
-
+FILE* fp;
+	if (fopen(&fp, "in.txt", "r") != 0)
+	{
+		printf("Eroare. Nu am putut deschide fisierul\n");
+	}
+	else {
+		printf("Am deschis fisierul cu success!\n");
 
 return 0;
-
 }
+
+
+
+		
