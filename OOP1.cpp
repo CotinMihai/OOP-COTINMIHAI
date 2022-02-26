@@ -1,6 +1,5 @@
 #include<fstream>
 #include<iostream>
-#include<cstdio>
 #include <stdlib.h>
 #include<cstring>
 using namespace std;
@@ -19,7 +18,7 @@ int main()
 	 {printf("Am deschis fisierul cu success!\n");
 	
 		
-		while(fin>>x)
+	while (fgets(stringtare, 201, fp))
 		{	
 			vect[i]=x;
 			contor_caractere++;//cate numere citește din fișier
