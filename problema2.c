@@ -12,10 +12,10 @@ printf("Introduceti numarul de cuvinte din propozitie: ");
 	int numarCuvinte;
 	scanf("%d", &numarCuvinte, 4);
 	printf("Introduceti o propozitie: ");
-	char cuvant[20];
+	char cuvant[100];
 	//scanf("%19s", cuvant);
 	int counter = 0;
-	while (scanf("%19s", cuvant, 19))
+	while (scanf("%19s", cuvant, 20))
 	{
 		//if (strcmp(cuvant, "\n\n") == 0)
 		//	break;
