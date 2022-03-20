@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1647840882 source:c:\users\mihaicot\desktop\grafica\lab4\lab4\sort.cpp
+	"Sort.h"
+	<stdlib.h>
+	<stdio.h>
+	<malloc.h>
+	<iostream>
+	<time.h>
+
+1647838259 c:\users\mihaicot\desktop\grafica\lab4\lab4\sort.h
+
+1647840963 source:c:\users\mihaicot\desktop\grafica\lab4\lab4\main.cpp
+	<iostream>
+	"Sort.h"
+
