@@ -8,22 +8,22 @@
 class Sort
 {
 
-int counter,i,j,v[10001],k,mini,maxi,n,st,dr;
-bool ascendent;
+    int counter,i,j,v[10001],k,mini,maxi,n,st,dr;
+    bool ascendent;
 
 public:
 
-    void InsertSort(bool ascendent=false);
+    void InsertSort( int v[10001],bool ascendent=false);
 
     void QuickSort(int v[10001],bool ascendent,int st, int dr);
 
-    void BubbleSort(bool ascendent=false);
+    void BubbleSort(int v[10001],bool ascendent=false);
 
-    void Print();
+    void Print(int v[10001]);
 
     int  GetElementsCount();
 
-     Sort(int v[10001],int maxi,int mini,int n);
+    Sort(int v[10001],int maxi,int mini,int n);
 
     int  GetElementFromIndex(int v[10001],int index);
 
